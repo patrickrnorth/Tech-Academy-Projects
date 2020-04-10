@@ -18,7 +18,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+   /* background-color: #fff;*/
 }
 
 footer,
@@ -161,7 +161,7 @@ section {
     height: auto;
     padding-top: 350px; /* This is spacer before the Main title Logo */
     padding-bottom: 500px; /* This is spacer after the Main title Logo */
-    color: #fff
+    color: #fff;
 }
 
 .head-main {

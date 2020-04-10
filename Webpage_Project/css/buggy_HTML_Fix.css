@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.bold_student p{
+    font-weight: bold;
+}
+
+.logo img{
+    width: 600px;
+    height: 300px;
+    border: 2px dashed red;
+}
+
+.video h3{
+    text-align: center;
+}
+
+.video iframe{
+    width: 560px;
+    height: 315px;
+    border: none;
+}
