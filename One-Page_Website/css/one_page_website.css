@@ -2,3 +2,47 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
+
+.mail_list input[type="text"]{
+    width: 30%;
+    margin: 10px 1em;
+    border-radius: 7px;
+    border-top: 1px solid #090b0d;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
+}
+
+.banner {
+    text-align: center;
+    margin: 15px auto;
+    width: 1200px;
+    height: 676px;
+}
+
+.banner img{
+    max-width: 90%;
+    max-height: 90%;
+    /* width: 900px;
+    height: 338px;--*/`
+}
+
+
+
+
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 600px;
+    height: 338px;
+    
+}
+.photo-container img {
+    max-width: 75%;
+    max-height: 75%;
+    width: 600px;
+    height: 338px;
+
+}
+
+
