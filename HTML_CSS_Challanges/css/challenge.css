@@ -1,0 +1,141 @@
+.container {
+    margin: 15px auto;
+    
+}
+
+.photo-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter:hue-rotate(90deg);
+    border-radius: 60px 200px;
+
+}
+
+.photo-container video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+
+}
+
+.photo-container:hover .overlay {
+    opacity:1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008cba;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border:1px solid red;
+}
+
+th, td {
+    padding:15px;
+    text-align: left;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;    
+}
+
+p:hover {
+    background: black;
+    color: white;
+}    
+
+/*========================================
+    Nav Bar
+=========================================*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top:0;
+    width: 100%;    
+    z-index: 9999;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top:30px;
+    padding: 16px;
+}
+
+
+/*============================================
+    COLUMNS
+    =========================================*/
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: grey;
+    color: white;
+    font-family: fantasy;
+    height: 80px;
+    width: 40%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
