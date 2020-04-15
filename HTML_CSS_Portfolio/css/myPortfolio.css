@@ -3,7 +3,7 @@
 
 /* Body */
 body {
-    margin: 0%;
+    margin: 0%;    
 }
 
 /*Navbar*/
@@ -97,6 +97,8 @@ h1 {
     text-align: center;
     margin-top: 3%;
     color:#0A7ACC;
+    font-weight: bold;
+    transition: transform 1s;
 }
 
 p {
@@ -128,7 +130,10 @@ q {
     font-weight: bold;
 }
 
-
+p, a, h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 /* IMAGE ELEMENTS */
 img {
     border-radius: 8px;
@@ -206,7 +211,10 @@ p:hover {
 
 h1:hover {
     color:#162447;
-    font-weight: normal;
+    font-weight: bold;
+    transition: transform 2s;
+    transform: scale(1.1);
+    
 }
 
 img:hover {
