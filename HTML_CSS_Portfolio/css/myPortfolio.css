@@ -73,7 +73,7 @@ body {
     padding: 10px;
     padding-top: 1.2%;
     height: 400px;
-    background-color:#162447;
+    background-color: #495573;
 }
 
 .Column_3 {
@@ -82,7 +82,7 @@ body {
     padding: 10px;
     padding-top: 2.2%;
     height: 450px;
-    background-color:#162447;
+    background-color:#495573;
 }
 
 .Row:after {
@@ -102,10 +102,10 @@ h1 {
 }
 
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
     color: #162447;
@@ -113,7 +113,7 @@ p {
 }
 
 center {
-    font-family: Perpetua, Rockwell Extra Bold;
+    
     text-align: center;
     letter-spacing: 1px;
     font-size: 20px;
@@ -142,7 +142,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;    
-    object-fit: cover;
     filter: contrast(120%);
     box-shadow: 10px 10px 50px 0px #0A7ACC;
     transition: all .5s cubic-bezier(0.6451, 0.045, 0.355, 1);
