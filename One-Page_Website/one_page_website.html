@@ -3,6 +3,7 @@
 	<head>
 		<title>FFVII Remake Fansite</title>
 		<meta charset="utf-8">
+		<meta name ="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
 	</head>
 	
@@ -46,7 +47,58 @@
 		<!-- EMBEDED VIDEO END --->
 
 		<hr>
-		
+		<div class="row">
+			<div class="column">
+				<img src="images/thumbnail_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="images/thumbnail_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="images/thumbnail_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+		</div>
+
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				
+				<div class="mySlides">
+					<div class="numbertext"> 1 / 3</div>
+					<img src="images/thumbnail_1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"> 2 / 3</div>
+					<img src="images/thumbnail_2.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"> 3 / 3</div>
+					<img src="images/thumbnail_3.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cloud Strife in front of Shinra HQ">
+				</div>				
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Barret Wallace mid fight">
+				</div>				
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Sephiroth in flames">
+				</div>
+
+
+
+			</div>
+		</div>
 		<!--PICTURE CONTAINER 1-->
 		<div class= "photo-container">
 			<img src="./images/thumbnail_1.jpg" alt="Cloud looking at a Mako reactor">
