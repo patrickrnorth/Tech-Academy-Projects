@@ -141,8 +141,6 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-
-
 .mail_list input[type="text"]{
     width: 30%;
     margin: 10px 1em;
@@ -155,18 +153,13 @@ img.hover-shadow {
 
 .banner {
     text-align: center;
-    margin: 15px auto;
-    width: 1200px;
-    height: 676px;
+    margin: 15px auto;   
 }
 
 .banner img{
-    max-width: 90%;
-    max-height: 90%;
-    
+    max-width: 100%;
+    max-height: 100%;    
 }
-
-
 
 
 .photo-container {
@@ -184,4 +177,22 @@ img.hover-shadow {
 
 }
 
+h1, h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
 
+#video {
+    position: relative;
+    padding-top: 1%;
+    
+    padding-left: 40%;
+    
+}
+
+form {
+    text-align: center;
+    
+}
