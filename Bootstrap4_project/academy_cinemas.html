@@ -144,7 +144,19 @@
             </div>            
             <!--END SHOWTIMES-->
                 
-            <!--DEALS-->
+            <!--JUMBOTRON WELCOME-->
+            <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+                <div class="container">
+                    <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;text-transform:uppercase;">Movie Deals</h1>
+                    <p class="lead text-light">Check out our monthly deals...</p>
+                    <!--MOVIE DEALS-->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See our monthly movie deals!</button>
+                    <!--/MOVIE DEALS-->
+                </div>
+            </div>
+            <!--JUMBOTRON END-->
+
+            <!--SIGNUP FORM-->
             <div class="text-center" id="Deals">
                 <form>
                     <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
@@ -152,10 +164,56 @@
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="Enter email">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to recieve great move reward deals!">
+                        Sign Up
+                    </button>
+                    
                 </form>
             </div>
             <!--END DEALS-->
+
+            <!-- Modal -->
+            <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register to recieve movie deals.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    
+                    <form>
+                        <fieldset class="form-group">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email...">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password...">
+                        </fieldset>
+
+                    </form>
+                        
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/MODAL-->
         
             <!--FOOTER-->
             <div class="container my-5">
@@ -188,6 +246,11 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
                 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
                 crossorigin="anonymous"></script>
+            <script>
+                $('.popover-dismiss').popover({
+                    trigger: 'focus'
+                })
+            </script>
         </div>
     </body>
 </html>
