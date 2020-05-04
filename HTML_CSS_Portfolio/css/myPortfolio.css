@@ -1,9 +1,26 @@
 /* Color pallette #D7FFFF,#BFDEE3,#0A7ACC,#2B5D92,#162447,#D7FFFF,#BFDEE3,#0A7ACC */
 
+/* Affects entire document with scroll smooth */
+html {
+    scroll-behavior: smooth; /* This ensures that the page scrolling is smooth when the nav bar is clicked */
+}
+
+
 
 /* Body */
 body {
     margin: 0%;    
+        opacity: 1; /*This and transition affect the page loading fade in effect */
+        transition: 2s opacity; /* This causes a 3 second fade in */
+    letter-spacing: .2vw;
+    font-family: Avant Garde, Helvetica;
+    font-size: 1.5vw;
+}
+
+/* This section contributes to the fade effect for the page that occurs when the page is loaded */
+body.fade-out {
+    opacity: .1; /* This sets the level of opacity at the start of page load */
+    transition: none;
 }
 
 /*Navbar*/
@@ -14,8 +31,12 @@ body {
     top: 0;
     width: 100%;
     z-index: 1;
+      position: fixed;
+    -webkit-animation: moveNave 5s; 
+      animation: moveNav 5s;
 }
 
+/* Navbar text */
 .Navbar a {
     float: left;
     display: block;
@@ -25,6 +46,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
+      position: relative;
+    -webkit-animation: movenavText 5.75;
+    letter-spacing .2vw;
 }
 
 .Navbar a:hover {
