@@ -5,10 +5,13 @@
 		<meta charset="utf-8">
 		<meta name ="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="JS/one_page_website.js"></script>
 	</head>
 	
 	<body>
+
+		<script>document.body.className += ' fade-out';</script>
 		
 		<!-- NAV BAR -->
 		<div id="home">
@@ -117,10 +120,11 @@
 		<div id="mail_list">
 			<h3>If you would like to join our mailing list please enter your information below:</h3>
 			<div>
-				<form class="mail_list" action="" method="get">
-				First name: <input type="text" name="First_Name"><br>
-				Last name:  <input type="text" name="Last_Name"><br>
-				Email:	    <input type="text" name="Email"><br>
+				<form name="myForm" class="mail_list" action="" method="post" onsubmit ="return validateForm()">
+				First name: <input type="text" name="fname" ><br>
+				Last name:  <input type="text" name="lname" "><br>
+				Email:	    <input type="text" name="email"><br>
+				Phone Number: <input type="text" name="phone"><br>
 				<input type="submit" value="Submit">
 			    </form>	
 			</div>
@@ -138,7 +142,12 @@
 			</div>	
 		</div>
 		<!--FOOTER END-->
-				
+		<script>
+		$(function() {
+			$('body').removeClass('fade-out');
+		});
+		</script>
+		
 	</body>	
 </html>			
 			

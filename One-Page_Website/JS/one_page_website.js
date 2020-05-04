@@ -33,3 +33,31 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function validateForm() {
+      
+    var errorMessage = "";
+
+    if (document.forms["myForm"]["fname"].value == "") {
+        errorMessage += "Enter your First name\n";               
+    }
+    
+    if (document.forms["myForm"]["lname"].value == "") {
+        errorMessage += "Enter your Last name\n";              
+    }
+
+    if (document.forms["myForm"]["email"].value == "") {
+        errorMessage += "Enter your Email\n";              
+    }
+
+    if(document.forms["myForm"]["phone"].value =="") {
+        errorMessage += "Enter your Phone Number";        
+    }
+
+    if (errorMessage != "") {
+        alert(errorMessage);
+        return false;
+    }
+    
+
+}
