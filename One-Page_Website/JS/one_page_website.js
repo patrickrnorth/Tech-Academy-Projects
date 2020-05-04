@@ -34,6 +34,7 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+/* Newsletter Validation */
 function validateForm() {
       
     var errorMessage = "";
@@ -67,4 +68,6 @@ function openForm() {
 function closeForm() {
     document.getElementById("myPopupForm").style.display ="none";
 }
+
+
 

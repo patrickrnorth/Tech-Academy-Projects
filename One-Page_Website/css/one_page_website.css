@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -166,6 +170,7 @@ img.hover-shadow {
 .banner img{
     max-width: 100%;
     max-height: 100%;    
+    animation: zoominoutsinglefeatured 1s forwards;
 }
 
 
@@ -272,7 +277,18 @@ form {
     opacity:1;
 }
 
-
+/* @keyframes zoom */
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
 
 
 
