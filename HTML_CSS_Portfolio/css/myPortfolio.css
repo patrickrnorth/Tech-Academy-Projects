@@ -48,7 +48,7 @@ body.fade-out {
     text-align: center;
       position: relative;
     -webkit-animation: movenavText 5.75;
-    letter-spacing .2vw;
+    letter-spacing: .2vw;
 }
 
 .Navbar a:hover {

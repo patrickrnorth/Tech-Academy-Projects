@@ -34,6 +34,9 @@
         <a onclick="openForm()">Contact</a><!-- This makes it so that our openForm function runs when we click Contact on the nav bar-->
     </div>
 
+<!-- This allows us to close the form when we click outside the nav bar or contact form-->
+<div class="btn cancel" onclick="closeForm()">
+
 <!--HOME-->
         <br>
         <br>
@@ -67,6 +70,97 @@
                 </p>
     </div>    
 
+<!-- SLIDESHOW SECTION-->
+    <div id="Slideshow">
+        <div id="Slideshow_Background">
+            <div id="Slideshow_Container">
+                
+                <div class="mySlides fade">
+                    <div class="Slide_Number">1 /6<div>
+                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                            <div class="text">I'm available to assist you on your project!</div>
+                </div>                    
+                                
+                <div class="mySlides fade">
+                    <div class="Slide_Number">2 /6<div>
+                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                            <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                </div>                    
+                
+                <div class="mySlides fade">
+                    <div class="Slide_Number">3 /6<div>
+                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                            <div class="text">the popular programming language Python,</div>
+                </div>          
+                
+                <div class="mySlides fade">
+                    <div class="Slide_Number">4 /6<div>
+                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                            <div class="text">C#, .NET Framework, ASP.NET, MVC,</div>
+                </div>            
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number">5 /6<div>
+                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                            <div class="text">back end development, databases and SQL.</div>
+                </div>  
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number">6 /6<div>
+                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                            <div class="text">
+                                <a onclick="openForm()" href="#Contact" style="color: white;">Contact me now!</a>
+                            </div>
+                </div>  
+            
+                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>                
+          
+    <br>
+
+            <div style="text-align: center">
+            
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            
+            </div> 
+        </div>
+    </div>
+
+<!-- We included our JS function within this file to ensure it was given precedence, this function covers the slideshow-->
+   <!--BROKEN
+   <script>
+        var slideIndex =1;
+            showSlides(slideIndex);
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+            var i;
+            var slides=document.getElementsByClassName("mySlides");
+            var dots= document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex =1}
+                if (n < 1) {slideIndex = slides.length}
+                    for (i=0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";        
+        }        
+    </script>
+-->
 <!--ABOUT SECTION-->
     <div class="Row" id="About">
         <div class="Column_2">
@@ -90,7 +184,7 @@
             <a href="https://github.com/patrickrnorth" target="_blank"><img src="img/github.png" alt="GitHub"></a>
         </div>
     </div>
-
+</div>
 <!-- CONTACT SECTION-->
     <div class="Row" id="Contact">
         <div class="Column_3">
