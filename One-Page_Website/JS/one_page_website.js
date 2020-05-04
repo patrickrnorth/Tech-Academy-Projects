@@ -58,6 +58,13 @@ function validateForm() {
         alert(errorMessage);
         return false;
     }
-    
-
 }
+
+function openForm() {
+    document.getElementById("myPopupForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myPopupForm").style.display ="none";
+}
+
