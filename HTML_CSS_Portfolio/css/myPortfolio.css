@@ -194,7 +194,7 @@ body.fade-out {
     border-radius: 7px 7px 7px 7px;
 }
 
-;/* Number text (1/6, 2/6, etc.) - we have set this display to none, which means these are hidden */
+/* Number text (1/6, 2/6, etc.) - we have set this display to none, which means these are hidden */
 .Slide_Number {
     color: white;
     position: absolute;
