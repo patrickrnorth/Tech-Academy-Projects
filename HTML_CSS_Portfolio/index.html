@@ -11,7 +11,7 @@
     </head>
 
 <!--BODY-->
-<Body class="background">
+<body class="Background">
 
 <!--FADE IN EFFECT-->
 <script> 
@@ -28,7 +28,7 @@
 <!--NAVBAR-->
     <div class="Navbar">
         <a class="active" href="#Home">Home</a>
-        <a class="#Slideshow">Slideshow</a> <!--My slides-->
+        <a href="#Slideshow">Slideshow</a> <!--My slides-->
         <a href="#About">About</a>
         <a href="#GitHub">GitHub</a>
         <a onclick="openForm()">Contact</a><!-- This makes it so that our openForm function runs when we click Contact on the nav bar-->
@@ -38,11 +38,11 @@
 <div class="btn cancel" onclick="closeForm()">
 
 <!--HOME-->
+    <div id="Home">
         <br>
         <br>
 
 <!--VIDEO-->
-    <div id="Home">
         <video autoplay muted loop id="Typing_Video">
             <source src="vid/starfall.m4v"" type="video/mp4">
             Your browser does not suport HTML5 video. 
@@ -61,10 +61,10 @@
                             </q>
                             <br>-Jonathan Gillette<br>
                             <br>
-                            <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal;" >
+                            
                                 My name is Patrick. Welcome to my portfolio website. On it, I will tell you about my background and experience.<br>
                                 <br>Thank you for stopping by and enjoy!
-                            </div>
+                            
                         </center>
                     </strong>
                 </p>
@@ -76,38 +76,38 @@
             <div id="Slideshow_Container">
                 
                 <div class="mySlides fade">
-                    <div class="Slide_Number">1 /6<div>
-                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                    <div class="Slide_Number">1 /6</div>
+                        <img class="Slide_Show_Images" src="./css/img/bioPic.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
                             <div class="text">I'm available to assist you on your project!</div>
                 </div>                    
                                 
                 <div class="mySlides fade">
-                    <div class="Slide_Number">2 /6<div>
-                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                    <div class="Slide_Number">2 /6</div>
+                        <img class="Slide_Show_Images" src="./css/img/HTML_CSS_and_JavaScript.jpeg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
                             <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
                 </div>                    
                 
                 <div class="mySlides fade">
-                    <div class="Slide_Number">3 /6<div>
-                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                    <div class="Slide_Number">3 /6</div>
+                        <img class="Slide_Show_Images" src="./css/img/Python.png" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
                             <div class="text">the popular programming language Python,</div>
                 </div>          
                 
                 <div class="mySlides fade">
-                    <div class="Slide_Number">4 /6<div>
-                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                    <div class="Slide_Number">4 /6</div>
+                        <img class="Slide_Show_Images" src="./css/img/C_Sharp_and_Dot_NET.png" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
                             <div class="text">C#, .NET Framework, ASP.NET, MVC,</div>
                 </div>            
 
                 <div class="mySlides fade">
-                    <div class="Slide_Number">5 /6<div>
-                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                    <div class="Slide_Number">5 /6</div>
+                        <img class="Slide_Show_Images" src="./css/img/SQL_and_Database.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
                             <div class="text">back end development, databases and SQL.</div>
                 </div>  
 
                 <div class="mySlides fade">
-                    <div class="Slide_Number">6 /6<div>
-                        <img class="Slide_Show_Images" src="img/laptop.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
+                    <div class="Slide_Number">6 /6</div>
+                        <img class="Slide_Show_Images" src="./css/img/Coding_1.jpg" style="width:100%" alt=""> <!-- ADD MY PHOTO LATER-->
                             <div class="text">
                                 <a onclick="openForm()" href="#Contact" style="color: white;">Contact me now!</a>
                             </div>
@@ -134,37 +134,37 @@
     </div>
 
 <!-- We included our JS function within this file to ensure it was given precedence, this function covers the slideshow-->
-   <!--BROKEN
-   <script>
-        var slideIndex =1;
-            showSlides(slideIndex);
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-        function showSlides(n) {
-            var i;
-            var slides=document.getElementsByClassName("mySlides");
-            var dots= document.getElementsByClassName("dot");
-                if (n > slides.length) {slideIndex =1}
-                if (n < 1) {slideIndex = slides.length}
-                    for (i=0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                slides[slideIndex-1].style.display = "block";
-                dots[slideIndex-1].className += " active";        
-        }        
-    </script>
--->
+   
+<script>
+    var slideIndex = 1;
+        showSlides(slideIndex);
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+        var i;
+        var slides= document.getElementsByClassName("mySlides");
+        var dots= document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+                for (i=0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";        
+    }        
+</script>
+
 <!--ABOUT SECTION-->
     <div class="Row" id="About">
         <div class="Column_2">
-            <img src="img/laptop.jpg" alt="Laptop and Coffee">
+            <img src="./css/img/laptop.jpg" alt="Laptop and Coffee">
         </div>
     
         <div class="Column_1">
@@ -177,31 +177,32 @@
         <div class="Column_1">
             <h1>GitHub</h1>
                 <p style="text-align: center;">You can view my coding projects on my GitHub profile here:<br>
-                <center><a href="https://github.com/patrickrnorth" target="blank">Patrick North's GitHub</a></center></p>
+                <center><a href="https://github.com/patrickrnorth" target="_blank">Patrick North's GitHub</a></center></p>
         </div>
             
         <div class="Column_2">
-            <a href="https://github.com/patrickrnorth" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://github.com/patrickrnorth" target="_blank"><img src="./css/img/github.png" alt="GitHub"></a>
         </div>
     </div>
 </div>
 <!-- CONTACT SECTION-->
-    <div class="Row" id="Contact">
-        <div class="Column_3">
-            <img src="img/email.jpg" alt="Contact_Image">
-        </div>
-
-        <div class="Column_1">
-            <h1>Contact</h1>
-                <form action="" method="get">
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
-                        <input type="text" id="Message" placeholder="Please write your message here">
-                        <input type="submit" value="Submit">
-                </form>
+    <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button"> Contact</button> 
+        <div class="form-popup" id="myForm">
+            <form action ="https//formspree.io/info@learncodinganywhere.com" method ="POST" class="form-container">
+            <h1>Contact</h1>    
+            <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Type your name here" name="name" required>
+            <label for="phone"><b>Phone</b></label>
+                <input type="text" placeholder="Enter your phone number here" name="phone">
+            <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Type your email address here" name="email" required>
+            <label for="message"><b>Message</b></label>
+                <input type="text" placeholder="Type your message here" name="message">
+            
+        <button type="submit" class="btn">SUBMIT</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+            </form>
         </div>
     </div>
 
@@ -211,7 +212,7 @@
                 <center style="font-family: Verdana, Geneva, Tahoma, sans-serif">&copy GoNorthernDev.com 2020, <a href="mailto:patricknorth@gonortherdev.com">patricknorth@gonortherndev.com</a></center><br>
             </p>
     </footer>
-    </Body>
+</body>
 </html>
 
 
