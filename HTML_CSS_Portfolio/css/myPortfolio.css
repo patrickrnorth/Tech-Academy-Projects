@@ -41,7 +41,7 @@ body.fade-out {
     color: white;
     padding: .75vw 1vw;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Avant Garde, Helvetica;
     font-size: 1.5vw;
     text-align: center;
       position: relative;
@@ -244,7 +244,7 @@ body.fade-out {
     padding: 1.6%;
     padding-top: 3%;
     height: 448px;
-    background-color: #BFDEE3;
+    background-color: skyblue;
 }
 
 .Column_2 {
@@ -438,7 +438,7 @@ button:hover, .form-container .btn:hover {
 
 footer {
     padding: 2%;
-    background-color:#BFDEE3;
+    background-color: skyblue;
     color: #162447;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
