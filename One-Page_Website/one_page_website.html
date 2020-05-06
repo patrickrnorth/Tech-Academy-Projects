@@ -3,31 +3,36 @@
 	<head>
 		<title>FFVII Remake Fansite</title>
 		<meta charset="utf-8">
+		<meta name ="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="JS/one_page_website.js"></script>
 	</head>
 	
 	<body>
+
+		<script>document.body.className += ' fade-out';</script>
 		
-		<!-- NAV BAR --->
+		<!-- NAV BAR -->
 		<div id="home">
 			<nav>
 				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#media" id="link"><li>MEDIA</li></a>
-					<a href="#mail_list" id="link"><li>MAILING LIST</li></a>
-					<a href="#contact" id="link"><li>CONTACT</li></a>
+					<a href="#home" class="link"><li>HOME</li></a>
+					<a href="#media" class="link"><li>MEDIA</li></a>
+					<a href="#mail_list" class="link"><li>MAILING LIST</li></a>
+					<a href="#contact" class="link"><li>CONTACT</li></a>
 				</ul>
 			</nav>	
 		</div>	
-		<!-- NAV BAR END --->
+		<!-- NAV BAR END -->
 		
 		<br>
 		
-		<!-- BANNER --->
+		<!-- BANNER -->
 		<div class="banner">
 			<img src="./images/banner.png" alt="FFVII Group Pose">
 		</div>
-		<!-- BANNER END --->
+		<!-- BANNER END -->
 		
 		<!-- WELCOME SUMMARY -->
 		<div>
@@ -39,86 +44,127 @@
 		</div>
 		<!-- WELCOME SUMMARY END-->
 
-		<!-- EMBEDED VIDEO --->
-		<div id="media">
+		<!-- LIGHTBOX CODE-->
+		<hr>
+		<div class="row">
+			<div class="column">
+				<img src="images/thumbnail_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="">
+			</div>
+			<div class="column">
+				<img src="images/thumbnail_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="">
+			</div>
+			<div class="column">
+				<img src="images/thumbnail_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="">
+			</div>
+			<div class="column">
+				<img src="images/thumbnail_4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="">
+			</div>
+		</div>
+
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				
+				<div class="mySlides">
+					<div class="numbertext"> 1 / 4</div>
+					<img src="images/thumbnail_1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"> 2 / 4</div>
+					<img src="images/thumbnail_2.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"> 3 / 4</div>
+					<img src="images/thumbnail_3.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"> 4 / 4</div>
+					<img src="images/thumbnail_4.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cloud Strife in front of a Mako reactor.">
+				</div>				
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Barret Wallace in battle.">
+				</div>				
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Sephiroth surrounded by flames.">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="images/thumbnail_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="The summon Bahamut.">
+				</div>
+
+
+			</div>
+		</div>
+		<!--END LIGHTBOX-->		
+
+		<!-- EMBEDED VIDEO -->
+		<div id="video">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/ERgrFVhL-n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="FFVII Remake Trailer"></iframe>
 		</div>
 		<!-- EMBEDED VIDEO END --->
 
-		<hr>
-		
-		<!--PICTURE CONTAINER 1-->
-		<div class= "photo-container">
-			<img src="./images/thumbnail_1.jpg" alt="Cloud looking at a Mako reactor">
-		</div>		
-		<!--PICTURE CONTAINER END 1-->
-		
-		<!--TEXT BOX 1-->
-		<div>
-			<p>FFVII Remake is a reimagining of the Playstation 1 classic of the same name.<br>
-			   It is scheduled to be released on April 10th, 2020, although many people have stated<br>
-			   they have received a physical copy almost a week earlier.
-			</p>
-		</div>
-		<!--TEXT BOX 1 END-->
-		
-		<hr>
-		
-		<!--PICTURE CONTAINER 2-->
-		<div class="photo-container">
-			<img src="./images/thumbnail_2.jpg" alt="Barret fighting">
-		</div>		
-		<!--PICTURE CONTAINER END 2-->
-		
-		<!--TEXT BOX 2-->
-		<div>
-			<p>
-				The battle system for the new game will be a combination of the old Active-Time Battle System and the newer free moving style of Final Fantasy XV.
-			</p>
-		</div>
-		<!--TEXT BOX 2 END-->
-
-		<hr>
-		
-		<!--PICTURE CONTAINER 3-->
-		<div class="photo-container">
-			<img src="./images/thumbnail_3.jpg" alt="Sephiroth walking through fire">
-		</div>		
-		<!--PICTURE CONTAINER END 3-->
-		
-		<!--TEXT BOX 3-->
-		<div>
-			<p> The developers have spent almost five years planning and building the remake from the ground up. It has been one of the most widely anticipated remakes in gaming history.
-		</div>
-		<!--TEXT BOX 3 END-->
-		
-		
 		<!--GAME PREORDER FORM -->
-		<div>
+		<div id="mail_list">
 			<h3>If you would like to join our mailing list please enter your information below:</h3>
 			<div>
-				<form class="mail_list" action="" method="get">
-				First name: <input type="text" name="First_Name"><br>
-				Last name:  <input type="text" name="Last_Name"><br>
-				Email:	    <input type="text" name="Email"><br>
+				<form name="myForm" class="mail_list" action="" method="post" onsubmit ="return validateForm()">
+				First name: <input type="text" name="fname" ><br>
+				Last name:  <input type="text" name="lname" "><br>
+				Email:	    <input type="text" name="email"><br>
+				Phone Number: <input type="text" name="phone"><br>
 				<input type="submit" value="Submit">
 			    </form>	
-			<div>
+			</div>
 		</div>
 		<!--GAME PREORDER FORM END -->
 		
+		<!--CONTACT FORM-->
+		<button class="open-button" onclick="openForm()">Contact Us!</button>
+
+		<div class="form-popup" id="myPopupForm">
+			<form action="" class="form-container">
+				<h2>Contact us!</h2>
+
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required>
+
+				<label for="message"><b>Message for us</b></label>
+				<input type="text" placeholder="Send us a message" name="message" required>
+
+				<button type="submit" class="btn">Submit</button>
+				<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+			</form>
+		</div>
 				
 		<!--FOOTER -->
 		<div id="contact">
 			<div>
 				<p>
-					Website administrator: <a href="patrickrnorth@gmail.com">Patrickrnorth@gmail.com</li></a> &nbsp;|&nbsp;
+					Website administrator: <a href="patrickrnorth@gmail.com">Patrickrnorth@gmail.com</a> &nbsp;|&nbsp;
 					<a href="https://www.square-enix.com">Square-Enix Official Website</a> &nbsp;|&nbsp;
-					FFVII Remake content &copy Square-enix 2020.
+					FFVII Remake content &copy; Square-enix 2020.
 			</div>	
 		</div>
 		<!--FOOTER END-->
-				
+		<script>
+		$(function() {
+			$('body').removeClass('fade-out');
+		});
+		</script>
+		
 	</body>	
 </html>			
 			
