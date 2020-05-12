@@ -45,18 +45,21 @@ INSERT INTO Classes
 	('C# Boot Camp')
 ;
 
---ALTER Table data to add two new fields
-ALTER TABLE Students
-ADD Student_ID INT, Class_ID INT;
+--THIS IS THE ERROR IM HAVING, I can not set the Instructor
+UPDATE Classes
+SET Instructor_ID = 10000
+WHERE Class_ID = 1
+;
+
 
 --ALTER table data to add Foreign Key Constraints
-ALTER TABLE Instructors
-ADD FOREIGN KEY (Class_ID) REFERENCES Classes(Class_ID);
+ALTER TABLE Students
+ADD Class_ID INT CONSTRAINT fk_class_ID FOREIGN KEY REFERENCES Classes(Class_ID);
+
+ALTER TABLE Classes
+ADD Instructor_ID INT CONSTRAINT fk_Instructor_ID FOREIGN KEY REFERENCES Instructors(Instructor_ID);
 
 --Display all data from any table
 SELECT * FROM Students;
 SELECT * FROM Instructors;
 SELECT * FROM Classes;
-
-
-	
