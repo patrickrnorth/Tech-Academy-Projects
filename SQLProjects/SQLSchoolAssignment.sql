@@ -45,11 +45,17 @@ INSERT INTO Classes
 	('C# Boot Camp')
 ;
 
---THIS IS THE ERROR IM HAVING, I can not set the Instructor
+
+-- I can not set the Instructor_ID due to error: Invalid Column Name 'Instructor_ID' but the field has already been made. I can see it when I run a select on classes it is a NULL field
 UPDATE Classes
 SET Instructor_ID = 10000
 WHERE Class_ID = 1
 ;
+
+
+
+
+
 
 
 --ALTER table data to add Foreign Key Constraints
