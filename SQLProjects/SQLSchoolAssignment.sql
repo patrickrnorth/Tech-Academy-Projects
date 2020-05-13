@@ -66,9 +66,9 @@ SELECT Student_Name FROM Students ORDER BY Student_Name ASC;
 
 --Query to display all classes, with the students and Instructors assigned to each
 SELECT 
-	Students.Student_Name, Instructors.Instructor_Name, Classes.Class_ID
-	FROM Students, Instructors
-	INNER JOIN Classes ON Students.Instructor_ID = Instructors.Instructor_ID;
+	s1.Student_Name, i1.Instructor_Name, c1.Class_ID
+	FROM Students s1, Instructors i1
+	INNER JOIN Classes c1 ON c1.Instructor_ID = i1.Instructor_ID;
 
 --Display all data from any table
 SELECT * FROM Students;
