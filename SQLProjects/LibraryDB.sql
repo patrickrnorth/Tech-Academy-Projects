@@ -1,6 +1,3 @@
-CREATE DATABASE libraryDB
-GO
-
 USE libraryDB
 GO
 
@@ -10,7 +7,6 @@ CREATE TABLE LIBRARY_BRANCH(
 	BranchName VARCHAR(50) NOT NULL,
 	[Address] VARCHAR(75) NOT NULL
 );
-
 
 --INSERT into the LIBRARY_BRANCH table 6 values one must be Sharpstown
 INSERT INTO LIBRARY_BRANCH
@@ -23,6 +19,7 @@ INSERT INTO LIBRARY_BRANCH
 	('Miami', '123 Ocean Way, FL 36664'),
 	('Key West', '9990 Celebration Way, FL 33344')
 ;
+SELECT * FROM LIBRARY_BRANCH;
 
 --CREATE BOOK_COPIES Table
 CREATE TABLE BOOK_COPIES(
@@ -56,7 +53,7 @@ INSERT INTO BOOK_COPIES
 	(28,6,4),
 	(29,6,3)
 ;
-
+SELECT * FROM BOOK_COPIES;
 
 --CREATE BOOKS Table
 CREATE TABLE BOOKS(
@@ -90,7 +87,9 @@ INSERT INTO BOOKS
 	('Wuthering Heights','DiMar Publishing Company'),
 	('The Lost Tribe','Temple Publishers')
 ;
+SELECT * FROM BOOKS;
 	
+/* ERROR MSG: There is already an object named 'fk_BookID' in the database. Do I just pick a different name for the different references of the same foreign key? <<<<<<<<<<<<<<<<<<<<<<<<*/
 --CREATE BOOK_AUTHORS Table
 CREATE TABLE BOOK_AUTHORS(
 	BookID INT CONSTRAINT fk_BookID REFERENCES BOOKS(BookID),
@@ -110,8 +109,9 @@ INSERT INTO BOOK_AUTHORS
 	('Jennifer Atkinson'),
 	('Kacey Deacon'),
 	('Dominique Norman'),
-	('Aaisha Warner'),
+	('Aaisha Warner')
 ;
+SELECT * FROM BOOK_AUTHORS;
 
 --CREATE BORROWER Table
 CREATE TABLE BORROWER(
@@ -134,15 +134,20 @@ INSERT INTO BORROWER
 	('Jacob Black', '2 Galvin Road Miami, FL 33156', '609-897-9837'),
 	('Jeffery North', '392 Randall Mill Dr. Hialeah, FL 33012', '(871) 744-9043')
 ;
+SELECT * FROM BORROWER;
 
 --CREATE BOOK_LOANS Table
 CREATE TABLE BOOK_LOANS(
 	BookID INT CONSTRAINT fk_BookID REFERENCES BOOKS(BookID),
 	BranchID INT CONSTRAINT fk_BranchID REFERENCES LIBRARY_BRANCH(BranchID),
 	CardNo INT CONSTRAINT fk_CardNo REFERENCES BORROWER(CardNo),
-	DateOut DATE NOT NULL,
-	DateDue DATE NOT NULL
+	DateOut VARCHAR(20) NOT NULL,
+	DateDue varchar(20) NOT NULL
 );
+
+/* ERROR MSG: The INSERT statement conflicted with the FOREIGN KEY constraint "fk_CardNo". <<<<<<<<<<<<<<<<<<<<
+ * The conflict occurred in database "libraryDB", table "dbo.BORROWER", column 'CardNo'. <<<<<<<<<<<<<<<<<<<<
+ */
 
 --INSERT INTO BOOK_LOANS table 10 rows 
 INSERT INTO BOOK_LOANS
@@ -159,12 +164,13 @@ INSERT INTO BOOK_LOANS
 	(26, 6, 10007, 2020-03-11, 2020-05-11),
 	(29, 1, 10008, 2020-03-21, 2020-03-21)
 ;
+SELECT * FROM BOOK_LOANS;
 
 --CREATE PUBLISHER Table
 CREATE TABLE PUBLISHER(
-	PublisherName VARCHAR PRIMARY KEY NOT NULL,
-	[Address] VARCHAR(75) NOT NULL,
-	Phone INT NOT NULL,
+	PublisherName VARCHAR(50) PRIMARY KEY NOT NULL,
+	[Address] VARCHAR(100) NOT NULL,
+	Phone VARCHAR(16) NOT NULL,
 );
 
 --INSERT into PUBLISHER table 10 values.
@@ -181,5 +187,5 @@ INSERT INTO PUBLISHER
 	('Island Press', '7119 Marvon Street Jacksonville, FL 32211', '(456) 220-7115'),
 	('Bellaire Buzz', '58 Brickyard Lane Opa Locka, FL 3305', '(296) 259-8262'),
 	('Alps Publishing', '79 Windfall Dr. Jacksonville, FL 32246', '(352) 850-0830')
-
 ;
+SELECT * FROM PUBLISHER;
