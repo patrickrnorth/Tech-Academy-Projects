@@ -113,7 +113,7 @@ CREATE TABLE BOOK_COPIES(
 INSERT INTO BOOK_COPIES
 	(BookID, BranchID, Number_Of_Copies)
 	VALUES
-	(10,2,3),
+	(29,6,4),
 	(11,3,2),
 	(12,5,4),
 	(13,6,3),
@@ -123,16 +123,16 @@ INSERT INTO BOOK_COPIES
 	(17,2,2),
 	(18,5,3),
 	(19,6,3),
-	(20,5,4),
+	(20,2,4),
 	(21,4,4),
 	(22,4,2),
 	(23,3,3),
-	(24,2,2),
+	(29,5,2),
 	(25,3,5),
 	(26,5,4),
 	(27,4,2),
 	(28,6,4),
-	(29,6,3)
+	(29,2,3)
 ;
 SELECT * FROM BOOK_COPIES;
 
@@ -183,9 +183,56 @@ INSERT INTO BOOK_LOANS
 	(13, 2, 10005, 20200122, 20200322),
 	(19, 1, 10006, 20200228, 20200428),
 	(22, 5, 10007, 20191101, 20200101),
-	(24, 4, 10008, 20191214, 20200214),
+	(24, 4, 10007, 20191214, 20200214),
 	(26, 6, 10001, 20200311, 20200511),
-	(29, 1, 10002, 20200321, 20200321)
+	(20, 1, 10002, 20200321, 20200321)
 ;
 SELECT * FROM BOOK_LOANS;
 
+--FULL OUTER JOIN Query
+SELECT *
+FROM BOOK_LOANS
+FULL OUTER JOIN BORROWER ON BOOK_LOANS.CardNo = BORROWER.CardNo
+FULL OUTER JOIN BOOKS ON BOOK_LOANS.BookID = BOOKS.BookID;
+
+--Query that returns all book titles and the authors name
+SELECT BOOKS.Title, BOOK_AUTHORS.AuthorName
+FROM BOOKS 
+INNER JOIN BOOK_AUTHORS ON BOOKS.BookID = BOOK_AUTHORS.BookID;
+
+--Stored PROCEDURE of how many copies of the book titled "The Lost Tribe" are owned by the library branch whos name is "Sharptown"?
+/*CREATE PROCEDURE .lostTribeOwnedSharptown
+AS
+	SELECT BOOK_COPIES.Number_Of_Copies [Sharpstown Copies]
+	FROM LIBRARY_BRANCH
+	INNER JOIN BOOK_COPIES ON BOOK_COPIES.BranchID = LIBRARY_BRANCH.BranchID
+	WHERE LIBRARY_BRANCH.BranchID = 2 AND BOOK_COPIES.BookID = 29;
+GO*/
+
+--EXECUTE PROCEDURE to find how many copies of the book titled "The Lost Tribe" are owned by Sharpton
+EXEC [dbo].[lostTribeOwnedSharptown];
+
+--Stored PROCEDURE of how many copies of the book titled "The Lost Tribe" are owned by each library branch?
+/*CREATE PROCEDURE .lostTribeOwnedAllLibraries
+AS
+	SELECT BOOK_COPIES.Number_Of_Copies [# of Copies]
+	FROM LIBRARY_BRANCH
+	INNER JOIN BOOK_COPIES ON BOOK_COPIES.BranchID = LIBRARY_BRANCH.BranchID
+	WHERE BOOK_COPIES.BookID = 29;
+GO*/
+
+--EXECUTE PROCEDURE to find how many copies of the book title "The Lost Tribe" are owned by each library branch
+EXEC [dbo].[lostTribeOwnedAllLibraries];
+
+--Stored PROCEDURE will retrieve the names of all borrowers who do not have any books checked out.
+/*CREATE PROCEDURE .borrowersWithNoBooks
+AS 
+SELECT BORROWER.[Name] 
+FROM BORROWER
+WHERE NOT EXISTS(
+	SELECT BORROWER.[Name] FROM BOOK_LOANS
+	WHERE BORROWER.CardNo = BOOK_LOANS.CardNo)
+GO*/
+
+--EXECUTE SP for borrowers who do not have any books checked out.
+EXEC [dbo].[borrowersWithNoBooks];
