@@ -1,3 +1,6 @@
+CREATE DATABASE libraryDB
+GO
+
 USE libraryDB
 GO
 
