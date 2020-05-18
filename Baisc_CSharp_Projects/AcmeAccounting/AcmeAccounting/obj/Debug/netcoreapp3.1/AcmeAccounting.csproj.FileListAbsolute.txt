@@ -10,3 +10,4 @@ D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\AcmeAccounting\Ac
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.dll
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.pdb
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.genruntimeconfig.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.csprojAssemblyReference.cache
