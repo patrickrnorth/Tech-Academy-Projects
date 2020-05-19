@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\bin\Debug\netcoreapp3.1\MathAssignment.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\bin\Debug\netcoreapp3.1\MathAssignment.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\bin\Debug\netcoreapp3.1\MathAssignment.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\bin\Debug\netcoreapp3.1\MathAssignment.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\bin\Debug\netcoreapp3.1\MathAssignment.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\bin\Debug\netcoreapp3.1\MathAssignment.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\obj\Debug\netcoreapp3.1\MathAssignment.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\obj\Debug\netcoreapp3.1\MathAssignment.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\obj\Debug\netcoreapp3.1\MathAssignment.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\obj\Debug\netcoreapp3.1\MathAssignment.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\obj\Debug\netcoreapp3.1\MathAssignment.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MathAssignment\MathAssignment\obj\Debug\netcoreapp3.1\MathAssignment.genruntimeconfig.cache
