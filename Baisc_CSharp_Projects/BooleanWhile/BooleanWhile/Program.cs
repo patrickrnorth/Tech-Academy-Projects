@@ -23,7 +23,6 @@ namespace BooleanWhile
             int j = 10;
             do
             {
- 
                 Console.WriteLine(i);
                 i = i - 1;
             }

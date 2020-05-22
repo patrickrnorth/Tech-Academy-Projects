@@ -1,0 +1,13 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\bin\Debug\netcoreapp3.1\StringAssign.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\bin\Debug\netcoreapp3.1\StringAssign.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\bin\Debug\netcoreapp3.1\StringAssign.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\bin\Debug\netcoreapp3.1\StringAssign.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\bin\Debug\netcoreapp3.1\StringAssign.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\bin\Debug\netcoreapp3.1\StringAssign.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\StringAssign\StringAssign\obj\Debug\netcoreapp3.1\StringAssign.genruntimeconfig.cache
