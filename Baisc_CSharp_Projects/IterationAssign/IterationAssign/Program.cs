@@ -112,14 +112,22 @@ namespace IterationAssign
             Console.WriteLine("Too legit too legit to quit");
             string userWordLyric = Console.ReadLine();
 
-            //search List mySong for a match to the user's word then add the index of that word to the List repeatLyrics
-            foreach (string lyric in mySong)
+            //search List mySong for a match to the user's word then add the index of that word to the List repeatLyrics          
+            for (int i = 0; i < mySong.Count; i++)
             {
-                if (lyric == userWordLyric)
-                {
-                    repeatLyrics.Add(mySong.IndexOf(lyric));
-                }
+                int lyricIndex = i;
+
+                if (mySong.Contains(userWordLyric) == true)
+                {                    
+                    repeatLyrics.Add(lyricIndex);                    
+                }                
             }
+            foreach (int index in repeatLyrics)
+            {
+                Console.WriteLine(index);
+            }
+            
+            
 
             //if user word is not in the List display error            
             if (mySong.Contains(userWordLyric) == false)
