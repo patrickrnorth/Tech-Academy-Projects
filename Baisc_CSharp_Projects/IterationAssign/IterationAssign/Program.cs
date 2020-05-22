@@ -112,41 +112,23 @@ namespace IterationAssign
             Console.WriteLine("Too legit too legit to quit");
             string userWordLyric = Console.ReadLine();
 
-            //search List mySong for a match to the user's word then add the index of that word to the List repeatLyrics          
+            //search List mySong to match the users word with a word(s) in the lyrics then print the index of those words.
             for (int i = 0; i < mySong.Count; i++)
             {
-                int lyricIndex = i;
-
-                if (mySong.Contains(userWordLyric) == true)
-                {                    
-                    repeatLyrics.Add(lyricIndex);                    
-                }                
+                bool songFound = false;
+                if(userWordLyric == mySong[i])
+                {
+                    songFound = true;
+                    Console.WriteLine("The index of the lyric is: " + i);
+                }            
             }
-            foreach (int index in repeatLyrics)
-            {
-                Console.WriteLine(index);
-            }
-            
-            
 
             //if user word is not in the List display error            
             if (mySong.Contains(userWordLyric) == false)
             {
                 Console.WriteLine("The word you typed is not in the lyrics.");
-            }            
-
-            //List all indicies from mySong that have lyrics that repeat
-            if (mySong.Contains(userWordLyric))
-            {
-                Console.WriteLine("The indicies of the word you typed are: ");
-                foreach (int repeatIndex in repeatLyrics)
-                {
-                    Console.WriteLine(repeatIndex);
-                }
-            }
-            Console.ReadLine();
-
-            
+            }                      
+            Console.ReadLine();            
             
             //11. Create a list of strings that has at least two identical strings in the List. Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list.
             List<string> nameList = new List<string>();
@@ -173,26 +155,8 @@ namespace IterationAssign
                     Console.WriteLine("This name " + name + " has not appeared in the list yet!");
 
                 }
-
             }
-
-
-
-
-
-            //foreach (string name in nameList)
-            //{
-            //    for (int i =0; i < nameList.Count; i++)
-            //    {
-                    
-            //        if (name[i] == name[i++])
-            //        {
-            //            Console.WriteLine("The name " + name + " has already appeared in the list.");
-            //        }
-                       
-            //    }
-
-            //}
+            Console.ReadLine();            
         }
     }
 }
