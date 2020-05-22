@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\bin\Debug\netcoreapp3.1\ArrayAndListAssign.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\bin\Debug\netcoreapp3.1\ArrayAndListAssign.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\bin\Debug\netcoreapp3.1\ArrayAndListAssign.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\bin\Debug\netcoreapp3.1\ArrayAndListAssign.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\bin\Debug\netcoreapp3.1\ArrayAndListAssign.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\bin\Debug\netcoreapp3.1\ArrayAndListAssign.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\obj\Debug\netcoreapp3.1\ArrayAndListAssign.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\obj\Debug\netcoreapp3.1\ArrayAndListAssign.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\obj\Debug\netcoreapp3.1\ArrayAndListAssign.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\obj\Debug\netcoreapp3.1\ArrayAndListAssign.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\obj\Debug\netcoreapp3.1\ArrayAndListAssign.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ArrayAndListAssign\ArrayAndListAssign\obj\Debug\netcoreapp3.1\ArrayAndListAssign.genruntimeconfig.cache
