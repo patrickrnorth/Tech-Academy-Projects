@@ -45,7 +45,7 @@ namespace TwentyOne
                     Cards.RemoveAt(randomIndex);
                 }
                 this.Cards = TempList;
-            }            
+            }
         }
 
 
