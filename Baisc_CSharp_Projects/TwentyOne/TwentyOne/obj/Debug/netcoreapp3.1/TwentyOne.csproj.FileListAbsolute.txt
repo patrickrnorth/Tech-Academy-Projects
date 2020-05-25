@@ -1,3 +1,16 @@
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.exe
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.deps.json
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.runtimeconfig.json
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.runtimeconfig.dev.json
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.dll
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.pdb
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csprojAssemblyReference.cache
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.AssemblyInfoInputs.cache
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.AssemblyInfo.cs
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.dll
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.pdb
+C:\Users\patri\source\repos\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.genruntimeconfig.cache
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.exe
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.deps.json
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.runtimeconfig.json
