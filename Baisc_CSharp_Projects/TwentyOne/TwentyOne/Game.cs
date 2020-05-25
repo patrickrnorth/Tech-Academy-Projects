@@ -16,5 +16,6 @@ namespace TwentyOne
             {
                 Console.WriteLine(player);
             }
+        }
     }
 }
