@@ -6,7 +6,7 @@ namespace NamedParameters
 {
     public class MathOperation
     {
-        public static void myOperation(int firstNum, int secondNum)
+        public void myOperation(int firstNum, int secondNum)
         {
             int myNumAdd = firstNum + 10;
             Console.WriteLine("The second number is: " + secondNum);

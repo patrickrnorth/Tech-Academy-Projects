@@ -8,8 +8,14 @@ namespace NamedParameters
         {
             int myNum = 10;
             int myNum2 = 12;
-            MathOperation.myOperation(myNum, myNum2);
-            MathOperation.myOperation(secondNum: myNum2, firstNum: myNum);
+            
+            //initialize a MathOperation object
+            MathOperation myOp = new MathOperation();
+
+            //Call the method in the class, passing in two numbers.
+            myOp.myOperation(myNum, myNum2);
+            //Call the method in the class, specifying the parameters by name.
+            myOp.myOperation(secondNum: myNum2, firstNum: myNum);
         }
     }
 }
