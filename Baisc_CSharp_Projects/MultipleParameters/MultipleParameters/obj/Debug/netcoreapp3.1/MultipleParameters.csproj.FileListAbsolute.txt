@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\obj\Debug\netcoreapp3.1\MultipleParameters.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\obj\Debug\netcoreapp3.1\MultipleParameters.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\obj\Debug\netcoreapp3.1\MultipleParameters.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\bin\Debug\netcoreapp3.1\MultipleParameters.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\bin\Debug\netcoreapp3.1\MultipleParameters.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\bin\Debug\netcoreapp3.1\MultipleParameters.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\bin\Debug\netcoreapp3.1\MultipleParameters.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\bin\Debug\netcoreapp3.1\MultipleParameters.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\bin\Debug\netcoreapp3.1\MultipleParameters.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\obj\Debug\netcoreapp3.1\MultipleParameters.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\obj\Debug\netcoreapp3.1\MultipleParameters.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\MultipleParameters\MultipleParameters\obj\Debug\netcoreapp3.1\MultipleParameters.genruntimeconfig.cache
