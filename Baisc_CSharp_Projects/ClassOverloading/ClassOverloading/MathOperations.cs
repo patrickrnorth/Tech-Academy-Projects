@@ -15,13 +15,14 @@ namespace ClassOverloading
         }
 
         //will receive decimal parameter and do an multiplication operation on it and return as an integer .
-        public static int myOpperation(float userNum)
+        public static int myOpperation(decimal userNum)
         {
             int myNum = Convert.ToInt32(userNum);
             int myNumMult = myNum * 10;
             return myNumMult;
         }
 
+        //will recieve a string parameter, convert to integer then divide by 10 then return an integer.
         public static int myOpperation(string userNum)
         {
             int myNum = Convert.ToInt32(userNum);
