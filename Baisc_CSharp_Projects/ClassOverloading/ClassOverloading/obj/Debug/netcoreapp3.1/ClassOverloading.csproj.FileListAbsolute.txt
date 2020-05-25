@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\bin\Debug\netcoreapp3.1\ClassOverloading.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\bin\Debug\netcoreapp3.1\ClassOverloading.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\bin\Debug\netcoreapp3.1\ClassOverloading.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\bin\Debug\netcoreapp3.1\ClassOverloading.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\bin\Debug\netcoreapp3.1\ClassOverloading.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\bin\Debug\netcoreapp3.1\ClassOverloading.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\obj\Debug\netcoreapp3.1\ClassOverloading.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\obj\Debug\netcoreapp3.1\ClassOverloading.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\obj\Debug\netcoreapp3.1\ClassOverloading.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\obj\Debug\netcoreapp3.1\ClassOverloading.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\obj\Debug\netcoreapp3.1\ClassOverloading.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ClassOverloading\ClassOverloading\obj\Debug\netcoreapp3.1\ClassOverloading.genruntimeconfig.cache
