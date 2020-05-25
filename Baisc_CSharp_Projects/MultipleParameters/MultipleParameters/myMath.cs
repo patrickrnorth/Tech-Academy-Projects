@@ -6,7 +6,7 @@ namespace MultipleParameters
 {
     public class myMath
     {
-        public static int AddInts(int userNum, int userNum2 = 0)
+        public int AddInts(int userNum, int userNum2 = 0)
         {
             int newUserNum = userNum + userNum2;
             return newUserNum;

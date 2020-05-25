@@ -12,14 +12,16 @@ namespace MultipleParameters
             Console.WriteLine("Please input a second integer (optional): ");
             bool userNum2IsValid = int.TryParse(Console.ReadLine(), out int userNum2);
 
+            myMath myNumObj = new myMath();
+
             int result = 0;
             if (userNum2IsValid)
             {
-                result = myMath.AddInts(userNum, userNum2);
+                result = myNumObj.AddInts(userNum, userNum2);
             }
             else
             {
-                result = myMath.AddInts(userNum);
+                result = myNumObj.AddInts(userNum);
             }
                        
 
