@@ -16,8 +16,9 @@ namespace DifferentMethodTypes
             
             //static overload method with an out parameter
             int myNum = 1;
-            Console.WriteLine("Your number plus my number is: " + myMethod.myMethodOp(userNum, myNum, out int extraNum));
-            Console.WriteLine("That number plus ten is: " + extraNum);
+            Console.WriteLine("Your number plus my number is: " + myMethod.myMethodOp(userNum, myNum));
+            newMethod.myMethodOut(userNum, out int extraNum);
+            Console.WriteLine("That number plus one is: " + extraNum );
         }
     }
 }
