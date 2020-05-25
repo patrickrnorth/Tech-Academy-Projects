@@ -1,0 +1,13 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\bin\Debug\netcoreapp3.1\NamedParameters.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\bin\Debug\netcoreapp3.1\NamedParameters.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\bin\Debug\netcoreapp3.1\NamedParameters.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\bin\Debug\netcoreapp3.1\NamedParameters.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\bin\Debug\netcoreapp3.1\NamedParameters.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\bin\Debug\netcoreapp3.1\NamedParameters.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\NamedParameters\NamedParameters\obj\Debug\netcoreapp3.1\NamedParameters.genruntimeconfig.cache
