@@ -10,7 +10,13 @@ namespace TwentyOne
     class Program
     {
         static void Main(string[] args)
-        {            
+        {
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "jesse", "bill", "bob" };
+            game.ListPlayers();
+            Console.ReadLine();
+            
+            
             Deck deck = new Deck();
             deck.Shuffle(3);
 
