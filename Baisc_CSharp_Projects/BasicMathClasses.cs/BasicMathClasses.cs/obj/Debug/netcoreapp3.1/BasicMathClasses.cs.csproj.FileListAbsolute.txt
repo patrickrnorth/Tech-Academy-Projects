@@ -1,0 +1,25 @@
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.csproj.CoreCompileInputs.cache
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.AssemblyInfoInputs.cache
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.AssemblyInfo.cs
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.exe
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.deps.json
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.runtimeconfig.json
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.runtimeconfig.dev.json
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.dll
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.pdb
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.dll
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.pdb
+C:\Users\patri\source\repos\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.genruntimeconfig.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\bin\Debug\netcoreapp3.1\BasicMathClasses.cs.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\BasicMathClasses.cs\BasicMathClasses.cs\obj\Debug\netcoreapp3.1\BasicMathClasses.cs.genruntimeconfig.cache
