@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.genruntimeconfig.cache
