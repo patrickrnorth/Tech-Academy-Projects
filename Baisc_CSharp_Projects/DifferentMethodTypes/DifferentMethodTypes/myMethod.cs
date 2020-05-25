@@ -11,9 +11,10 @@ namespace DifferentMethodTypes
             Console.WriteLine("Your number divided by two is: " + (userNum / 2));
         }
 
-        public static int myMethodOp(int userNum, int myNum)
+        public static int myMethodOp(int userNum, int myNum, out int extraNum)
         {
             int newNum = userNum + myNum;
+            extraNum = newNum + 10;
             return newNum;
         }
 
