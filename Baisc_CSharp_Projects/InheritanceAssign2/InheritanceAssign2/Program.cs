@@ -7,21 +7,16 @@ namespace InheritanceAssign2
         static void Main(string[] args)
         {
             Employee<string> stuff = new Employee<string>();
+            stuff.Things = new List<string> { "Book", "Car", "Ball", "Pool"};
             
-            stuff.Things.Add("Books");
-            stuff.Things.Add("Pool");
-            stuff.Things.Add("Bike");            
-
             Employee<int> otherStuff = new Employee<int>();
-            //otherStuff.Things = new List<int>();
-            otherStuff.Things.Add(10);
-            otherStuff.Things.Add(29);
-            otherStuff.Things.Add(4);
-
+            otherStuff.Things = new List<int> { 1, 4, 25, 66, 100 };
+            
+            
             for (int i = 0; i < stuff.Things.Count; i++)
             {
-                Console.WriteLine(stuff.Things);
-                Console.WriteLine(otherStuff.Things);
+                Console.WriteLine(stuff.Things[i]);
+                Console.WriteLine(otherStuff.Things[i]);
             }
             
 
