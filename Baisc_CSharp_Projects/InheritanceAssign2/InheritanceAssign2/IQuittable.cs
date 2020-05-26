@@ -7,6 +7,6 @@ namespace InheritanceAssign2
 {
     interface IQuittable
     {
-        public void Quit(Employee employee)
+        public void Quit(Employee employee);
     }
 }
