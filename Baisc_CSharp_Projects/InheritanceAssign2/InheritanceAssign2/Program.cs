@@ -25,7 +25,7 @@ namespace InheritanceAssign2
 
             
             //Use polymorphism to create an object of type IQuittable and call the Quit() method on it.
-           // person1.Quit(person1);
+            person1.Quit(person1);
         }
     }
 }

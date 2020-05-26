@@ -12,7 +12,7 @@ namespace InheritanceAssign2
         
         public void Quit(Employee employee)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(employee.FirstName + " " + employee.LastName + " has quit.");
         }
         public static bool operator==(Employee employee1, Employee employee2)
         {
