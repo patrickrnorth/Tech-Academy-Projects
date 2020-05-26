@@ -8,7 +8,7 @@ namespace InheritanceAssign2
     {
         public void Quit(Employee employee)
         {
-            throw new NotImplementedException();
+            
         }
 
     }
