@@ -10,3 +10,4 @@ D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\InheritanceAssign
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\InheritanceAssign2\InheritanceAssign2\obj\Debug\netcoreapp3.1\InheritanceAssign2.dll
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\InheritanceAssign2\InheritanceAssign2\obj\Debug\netcoreapp3.1\InheritanceAssign2.pdb
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\InheritanceAssign2\InheritanceAssign2\obj\Debug\netcoreapp3.1\InheritanceAssign2.genruntimeconfig.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\InheritanceAssign2\InheritanceAssign2\obj\Debug\netcoreapp3.1\InheritanceAssign2.csprojAssemblyReference.cache

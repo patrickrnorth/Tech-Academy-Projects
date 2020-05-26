@@ -6,6 +6,10 @@ namespace InheritanceAssign2
 {
     interface IQuittable
     {
-        void Quit();
+        public void Quit(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
