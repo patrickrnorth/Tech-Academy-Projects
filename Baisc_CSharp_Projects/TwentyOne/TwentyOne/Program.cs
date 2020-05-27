@@ -10,15 +10,23 @@ namespace TwentyOne
     class Program
     {
         static void Main(string[] args)
-        {
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.Face = Face.Eight;
-            card2.Face = Face.King;
-            Console.WriteLine(card2.Face);
+        {                                   
+            Deck deck = new Deck();
 
+            //int count = deck.Cards.Count(x => x.Face == Face.Two);
+
+            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+            //List<int> numList = new List<int>() { 1, 2, 3, 4, 5, 6, 45 };
+            //int sum = numList.Where(x => x >20).Sum();
+            //Console.WriteLine(sum);
             
-            //Deck deck = new Deck();
+            
+            //foreach (Card card in newList)
+            //{
+            //    Console.WriteLine(card.Face);
+            //}
+            
+            
             //deck.Shuffle(3);
 
             //foreach (Card card in deck.Cards)
