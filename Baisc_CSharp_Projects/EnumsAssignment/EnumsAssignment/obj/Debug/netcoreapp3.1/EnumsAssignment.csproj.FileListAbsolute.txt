@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\obj\Debug\netcoreapp3.1\EnumsAssignment.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\obj\Debug\netcoreapp3.1\EnumsAssignment.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\obj\Debug\netcoreapp3.1\EnumsAssignment.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\bin\Debug\netcoreapp3.1\EnumsAssignment.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\bin\Debug\netcoreapp3.1\EnumsAssignment.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\bin\Debug\netcoreapp3.1\EnumsAssignment.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\bin\Debug\netcoreapp3.1\EnumsAssignment.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\bin\Debug\netcoreapp3.1\EnumsAssignment.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\bin\Debug\netcoreapp3.1\EnumsAssignment.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\obj\Debug\netcoreapp3.1\EnumsAssignment.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\obj\Debug\netcoreapp3.1\EnumsAssignment.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\EnumsAssignment\EnumsAssignment\obj\Debug\netcoreapp3.1\EnumsAssignment.genruntimeconfig.cache
