@@ -31,7 +31,7 @@ namespace TwentyOne
                     game.Play();
                 }
                 game -= player;
-                Console.WriteLine("Thank you for player!");
+                Console.WriteLine("Thank you for playing!");
             }
             Console.WriteLine("Feel free to look around the casino. Bye for now!");
             Console.ReadLine();
