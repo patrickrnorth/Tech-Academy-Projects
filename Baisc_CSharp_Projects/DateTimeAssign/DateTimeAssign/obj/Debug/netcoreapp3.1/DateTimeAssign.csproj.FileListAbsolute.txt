@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\bin\Debug\netcoreapp3.1\DateTimeAssign.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\bin\Debug\netcoreapp3.1\DateTimeAssign.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\bin\Debug\netcoreapp3.1\DateTimeAssign.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\bin\Debug\netcoreapp3.1\DateTimeAssign.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\bin\Debug\netcoreapp3.1\DateTimeAssign.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\bin\Debug\netcoreapp3.1\DateTimeAssign.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\obj\Debug\netcoreapp3.1\DateTimeAssign.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\obj\Debug\netcoreapp3.1\DateTimeAssign.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\obj\Debug\netcoreapp3.1\DateTimeAssign.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\obj\Debug\netcoreapp3.1\DateTimeAssign.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\obj\Debug\netcoreapp3.1\DateTimeAssign.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\DateTimeAssign\DateTimeAssign\obj\Debug\netcoreapp3.1\DateTimeAssign.genruntimeconfig.cache
