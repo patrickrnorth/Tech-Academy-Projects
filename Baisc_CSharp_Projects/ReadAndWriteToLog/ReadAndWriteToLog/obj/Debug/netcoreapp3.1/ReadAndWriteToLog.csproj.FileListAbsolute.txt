@@ -1,0 +1,12 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\bin\Debug\netcoreapp3.1\ReadAndWriteToLog.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\bin\Debug\netcoreapp3.1\ReadAndWriteToLog.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\bin\Debug\netcoreapp3.1\ReadAndWriteToLog.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\bin\Debug\netcoreapp3.1\ReadAndWriteToLog.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\bin\Debug\netcoreapp3.1\ReadAndWriteToLog.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\bin\Debug\netcoreapp3.1\ReadAndWriteToLog.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\obj\Debug\netcoreapp3.1\ReadAndWriteToLog.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\obj\Debug\netcoreapp3.1\ReadAndWriteToLog.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\obj\Debug\netcoreapp3.1\ReadAndWriteToLog.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\obj\Debug\netcoreapp3.1\ReadAndWriteToLog.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\obj\Debug\netcoreapp3.1\ReadAndWriteToLog.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\ReadAndWriteToLog\ReadAndWriteToLog\obj\Debug\netcoreapp3.1\ReadAndWriteToLog.genruntimeconfig.cache
