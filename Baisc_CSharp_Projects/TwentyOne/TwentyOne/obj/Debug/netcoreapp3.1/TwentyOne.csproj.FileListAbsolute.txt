@@ -24,3 +24,6 @@ D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyO
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.dll
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\TwentyOne.pdb
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.genruntimeconfig.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\Casino.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\Casino.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CopyComplete

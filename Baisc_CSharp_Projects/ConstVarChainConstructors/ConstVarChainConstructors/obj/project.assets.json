@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Casino/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Casino.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Casino.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Casino/1.0.0": {
-      "type": "project",
-      "path": "../Casino/Casino.csproj",
-      "msbuildProject": "../Casino/Casino.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Casino >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\patri\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj",
-      "projectName": "TwentyOne",
-      "projectPath": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj",
+      "projectUniqueName": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\ConstVarChainConstructors\\ConstVarChainConstructors\\ConstVarChainConstructors.csproj",
+      "projectName": "ConstVarChainConstructors",
+      "projectPath": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\ConstVarChainConstructors\\ConstVarChainConstructors\\ConstVarChainConstructors.csproj",
       "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\TwentyOne\\TwentyOne\\obj\\",
+      "outputPath": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\ConstVarChainConstructors\\ConstVarChainConstructors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,11 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\TwentyOne\\Casino\\Casino.csproj": {
-              "projectPath": "D:\\Github Projects\\Tech_Academy_Projects\\Baisc_CSharp_Projects\\TwentyOne\\Casino\\Casino.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

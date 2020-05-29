@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Deck
     {

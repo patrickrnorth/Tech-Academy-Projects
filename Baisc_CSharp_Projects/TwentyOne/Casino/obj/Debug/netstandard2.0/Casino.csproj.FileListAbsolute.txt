@@ -1,0 +1,9 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\bin\Debug\netstandard2.0\Casino.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\bin\Debug\netstandard2.0\Casino.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\bin\Debug\netstandard2.0\Casino.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\obj\Debug\netstandard2.0\Casino.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\obj\Debug\netstandard2.0\Casino.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\obj\Debug\netstandard2.0\Casino.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\obj\Debug\netstandard2.0\Casino.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\obj\Debug\netstandard2.0\Casino.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\Casino\obj\Debug\netstandard2.0\Casino.pdb
