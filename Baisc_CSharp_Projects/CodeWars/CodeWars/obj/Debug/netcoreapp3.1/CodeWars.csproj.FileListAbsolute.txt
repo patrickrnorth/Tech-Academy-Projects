@@ -1,0 +1,13 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.genruntimeconfig.cache
