@@ -15,7 +15,8 @@ namespace ExceptionHandlingAssign2
                 {
                     throw new ZeroNegativeException();
                 }
-                Console.WriteLine(userAge);
+                int userBorn = DateTime.Now.Year - userAge;
+                Console.WriteLine("You were born in: " + userBorn);
                 Console.ReadLine();
             }            
             catch (ZeroNegativeException) 

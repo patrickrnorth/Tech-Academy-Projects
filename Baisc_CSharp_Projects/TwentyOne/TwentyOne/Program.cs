@@ -48,7 +48,7 @@ namespace TwentyOne
                     }                    
                     catch(FraudException ex)
                     {
-                        Console.WriteLine("Security! Kick this person out.");
+                        Console.WriteLine(ex.Message);
                         Console.ReadLine();
                         updateDbWithException(ex);
                         Console.ReadLine();
