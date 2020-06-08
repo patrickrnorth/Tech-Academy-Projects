@@ -77,3 +77,7 @@ D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\
 D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\obj\Debug\CarInsuranceApp.csproj.CopyComplete
 D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\obj\Debug\CarInsuranceApp.dll
 D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\obj\Debug\CarInsuranceApp.pdb
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\bin\EntityFramework.dll
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\bin\EntityFramework.SqlServer.dll
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\bin\EntityFramework.xml
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\CarInsuranceApp\CarInsuranceApp\bin\EntityFramework.SqlServer.xml
