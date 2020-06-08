@@ -27,3 +27,9 @@ D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyO
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\Casino.pdb
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CopyComplete
 D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -1,0 +1,2 @@
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\MyCarInsuranceApp\MyCarInsuranceApp\obj\Debug\MyCarInsuranceApp.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\MyCarInsuranceApp\MyCarInsuranceApp\obj\Debug\MyCarInsuranceApp.csproj.CoreCompileInputs.cache
