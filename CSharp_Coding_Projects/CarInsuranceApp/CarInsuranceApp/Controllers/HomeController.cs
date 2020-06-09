@@ -80,6 +80,9 @@ namespace CarInsuranceApp.Controllers
 
                 while (reader.Read())
                 {
+                    CarInsuranceAppApply quote = new CarInsuranceAppApply();
+                    int myQuote = quote.CalcInsuranceQuote(reader["DateOfBirth"].ToString(), Convert.ToInt32(reader["CarYear"]), reader["CarMake"].ToString(), reader["CarModel"].ToString(), reader["Dui"].ToString(), reader["SpeedingTickets"].ToString(), reader["Coverage"].ToString());
+
                     var apply = new CarInsuranceAppApply();
                     apply.Id = Convert.ToInt32(reader["Id"]);
                     apply.FirstName = reader["FirstName"].ToString();
@@ -91,7 +94,8 @@ namespace CarInsuranceApp.Controllers
                     apply.CarModel = reader["CarModel"].ToString();
                     apply.Dui = reader["Dui"].ToString();
                     apply.SpeedingTickets = reader["SpeedingTickets"].ToString();
-                    apply.Coverage = reader["Coverage"].ToString();
+                    apply.Coverage = reader["Coverage"].ToString();                    
+                    apply.InsuranceQuote = myQuote;        
                     applications.Add(apply);
                 }
             }
@@ -104,7 +108,8 @@ namespace CarInsuranceApp.Controllers
                 applyVM.FirstName = application.FirstName;
                 applyVM.LastName = application.LastName;
                 applyVM.EmailAddress = application.EmailAddress;
-                
+                applyVM.InsuranceQuote = application.InsuranceQuote;
+
                 applyVMs.Add(applyVM);
                 
             }
