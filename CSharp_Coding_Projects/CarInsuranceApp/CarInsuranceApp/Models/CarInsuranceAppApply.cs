@@ -43,8 +43,8 @@ namespace CarInsuranceApp.Models
             if (CarMake == "porsche") { quoteTotal += 25; };
             if (CarMake == "porsche" && CarModel == "911 carrera") { quoteTotal += 25; };
             if (SpeedingTickets > 0) { quoteTotal += (10 * SpeedingTickets); }
-            if (Dui > 0) { quoteTotal += quoteTotal * Convert.ToInt32(1.25f); }
-            if (Coverage == "full coverage") { quoteTotal = quoteTotal * Convert.ToInt32(1.50f); }
+            if (Dui > 0) { quoteTotal += Convert.ToInt32(quoteTotal * 1.25f); }
+            if (Coverage == "full coverage") { quoteTotal = Convert.ToInt32(quoteTotal * 1.50f); }
 
             return quoteTotal;
         }
