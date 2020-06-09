@@ -1,0 +1,13 @@
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.exe
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.deps.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.runtimeconfig.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.runtimeconfig.dev.json
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.csprojAssemblyReference.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.csproj.CoreCompileInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.AssemblyInfoInputs.cache
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.AssemblyInfo.cs
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.dll
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.pdb
+D:\Github Projects\Tech_Academy_Projects\Baisc_CSharp_Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.genruntimeconfig.cache

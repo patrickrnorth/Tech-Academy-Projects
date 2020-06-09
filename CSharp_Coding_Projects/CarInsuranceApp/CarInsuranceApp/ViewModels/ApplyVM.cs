@@ -11,7 +11,7 @@ namespace CarInsuranceApp.ViewModels
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public int InsuranceQuote { get; set; }
-        //Code to calculate car insurance quote
+        
 
 
 

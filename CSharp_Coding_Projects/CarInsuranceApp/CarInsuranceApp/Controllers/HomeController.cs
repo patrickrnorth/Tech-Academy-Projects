@@ -19,7 +19,7 @@ namespace CarInsuranceApp.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpPost] //User entered parameters for their application for car insurance.
         public ActionResult Apply(string firstName, string lastName, string emailAddress, string dateOfBirth, string carYear, string carMake, string carModel, string dui, string speedingTickets, string coverage)
         {
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress) || string.IsNullOrEmpty(dateOfBirth) || string.IsNullOrEmpty(carYear) ||
@@ -65,6 +65,7 @@ namespace CarInsuranceApp.Controllers
             }
         }
         
+        //displays Admin view with FirstName, LastName, EmailAddress and InsuranceQuote
         public ActionResult Admin()
         {
             string queryString = @"SELECT Id, FirstName, LastName, EmailAddress, DateOfBirth, CarYear, CarMake, CarModel, Dui, SpeedingTickets, Coverage from Applications";
