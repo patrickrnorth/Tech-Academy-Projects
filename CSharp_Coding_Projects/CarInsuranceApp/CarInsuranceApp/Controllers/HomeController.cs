@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Data;
 using CarInsuranceApp.Models;
+using CarInsuranceApp.ViewModels;
 
 namespace CarInsuranceApp.Controllers
 {
@@ -66,6 +67,10 @@ namespace CarInsuranceApp.Controllers
         
         public ActionResult Admin()
         {
+            //using (CarInsuranceDBEntities db = new CarInsuranceDBEntities())
+            //{
+
+            //}
             string queryString = @"SELECT Id, FirstName, LastName, EmailAddress, DateOfBirth, CarYear, CarMake, CarModel, Dui, SpeedingTickets, Coverage from Applications";
             List<CarInsuranceAppApply> applications = new List<CarInsuranceAppApply>();
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -73,7 +78,7 @@ namespace CarInsuranceApp.Controllers
                 SqlCommand command = new SqlCommand(queryString, connection);
 
                 connection.Open();
-                
+
                 SqlDataReader reader = command.ExecuteReader();
 
                 while (reader.Read())
@@ -94,7 +99,21 @@ namespace CarInsuranceApp.Controllers
                 }
             }
 
-            return View();
+            var applyVMs = new List<ApplyVM>();
+            
+            foreach (var application in applications)
+            {
+                var applyVM = new ApplyVM();
+                applyVM.FirstName = application.FirstName;
+                applyVM.LastName = application.LastName;
+                applyVM.EmailAddress = application.EmailAddress;
+                
+                applyVMs.Add(applyVM);
+                
+            }
+
+            return View(applyVMs);
         }
+        
     }
 }

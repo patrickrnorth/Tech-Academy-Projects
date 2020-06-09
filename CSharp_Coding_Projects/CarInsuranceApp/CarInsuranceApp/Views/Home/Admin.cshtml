@@ -1,5 +1,5 @@
-﻿@using CarInsuranceApp.Models;
-@model List<CarInsuranceAppApply>
+﻿@using CarInsuranceApp.ViewModels
+@model List<ApplyVM>
 
 <div class="row no-gutters m-3">
     <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
@@ -7,18 +7,21 @@
             <h5 class="m-0">Applications</h5>
         </div>
         <div class="card-body">
-            @foreach (var apply in Model)
+            @foreach (var application in Model)
             {
                 <div class="row">
                     <div class="col">
-                        @apply.FirstName
+                        @application.FirstName
                     </div>
                     <div class="col">
-                        @apply.LastName
+                        @application.LastName
                     </div>
                     <div class="col">
-                        @apply.EmailAddress
-                    </div>                                    
+                        @application.EmailAddress
+                    </div>            
+                    <div class="col">
+                        
+                    </div>
                 </div>
             }
         </div>

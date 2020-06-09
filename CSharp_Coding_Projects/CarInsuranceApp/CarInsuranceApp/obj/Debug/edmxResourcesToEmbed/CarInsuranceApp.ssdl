@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarInsuranceDBModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'CarInsuranceDB.dbo.Applications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="100" />
+    <Property Name="DateOfBirth" Type="varchar" MaxLength="20" />
+    <Property Name="CarYear" Type="varchar" MaxLength="20" />
+    <Property Name="CarMake" Type="varchar" MaxLength="50" />
+    <Property Name="CarModel" Type="varchar" MaxLength="50" />
+    <Property Name="Dui" Type="varchar" MaxLength="50" />
+    <Property Name="SpeedingTickets" Type="varchar" MaxLength="20" />
+    <Property Name="Coverage" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityContainer Name="CarInsuranceDBModel1StoreContainer">
+    <EntitySet Name="Applications" EntityType="Self.Applications" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Applications].[Id] AS [Id], 
+    [Applications].[FirstName] AS [FirstName], 
+    [Applications].[LastName] AS [LastName], 
+    [Applications].[EmailAddress] AS [EmailAddress], 
+    [Applications].[DateOfBirth] AS [DateOfBirth], 
+    [Applications].[CarYear] AS [CarYear], 
+    [Applications].[CarMake] AS [CarMake], 
+    [Applications].[CarModel] AS [CarModel], 
+    [Applications].[Dui] AS [Dui], 
+    [Applications].[SpeedingTickets] AS [SpeedingTickets], 
+    [Applications].[Coverage] AS [Coverage]
+    FROM [dbo].[Applications] AS [Applications]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

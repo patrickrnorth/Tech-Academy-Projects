@@ -18,5 +18,7 @@ namespace CarInsuranceApp.Models
         public string Dui { get; set; }
         public string SpeedingTickets { get; set; }
         public string Coverage { get; set; }
-    }
+
+       
+    }   
 }

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarInsuranceDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Application">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DateOfBirth" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CarYear" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CarMake" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CarModel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Dui" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SpeedingTickets" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Coverage" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="CarInsuranceDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Applications" EntityType="Self.Application" />
+  </EntityContainer>
+</Schema>
