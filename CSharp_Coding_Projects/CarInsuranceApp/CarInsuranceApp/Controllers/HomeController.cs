@@ -67,12 +67,9 @@ namespace CarInsuranceApp.Controllers
         
         public ActionResult Admin()
         {
-            //using (CarInsuranceDBEntities db = new CarInsuranceDBEntities())
-            //{
-
-            //}
             string queryString = @"SELECT Id, FirstName, LastName, EmailAddress, DateOfBirth, CarYear, CarMake, CarModel, Dui, SpeedingTickets, Coverage from Applications";
             List<CarInsuranceAppApply> applications = new List<CarInsuranceAppApply>();
+            
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);
