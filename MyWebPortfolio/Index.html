@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GoNorthernDev.com</title>
+    <link href="./CSS/myPortfolio.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="JS/myPortfolio.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="nav" style="z-index: 999;">
+        <div class="container">
+            <div class="logo">
+                <a href="#home" class="text-dark font-weight-bold" style="filter: drop-shadow(5px 5px 10px black);">GoNorthern</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                
+                <ul class="navlinks " >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>            
+            </div>
+            
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home" id="home" >
+    </section>
+        
+    <section class="about" id ="about">
+        <div class="jumbotron jumbotron-fluid" style="z-index: -1; background-color: lightblue; height: auto; ">
+            <div class="container" style="text-align: left;">
+              <h1 class="display-2" style="color: rgba(1,36,72);  text-align:left; ">Hello, my name is Ryan North.</h1>
+              <p class="myP" style="text-align: left;">I am a full-stack developer based out of Jacksonville, FL.</p>
+              <p class="myP" style="text-align: left;">Would you like to know how I may help your project?</p>
+              <p class="myP" style="text-align: left;">Check out my <a href="#projects">projects</a> and <a href="#contact">resume</a> below.</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="projects" id ="projects">
+        <div class="jumbotron jumbotron-fluid" style="background-color:#fedbb7; height:auto; ;">
+            <div class="container">
+              <h1 class="display-2" style="color: rgba(1,36,72); text-align:left ">I am fluent in C#/.NET, SQL, Javascript, HTML5/CSS and Bootstrap.</h1>
+              <br><br>>
+            </div>
+            <div class="container-fluid ">
+                
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-3 d-flex justify-content-around">
+                        
+                        <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own web pages or website.</p>
+                        <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Learn More »</a></p>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-around">
+                        <p>CSS is used for describing the presentation of web pages. CSS can save a lot of time and effort. Our CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the style and layout of your website.</p>
+                        <p><a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">Learn More »</a></p>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-around">
+                        <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can easily create responsive websites.</p>
+                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More »</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id ="contact">
+        <div class="jumbotron jumbotron-fluid" style="background-color:rgba(1, 36, 72,.5); width: auto; height:auto;  ">
+            <div class="container" >
+                <h1 class="display-2" style="color:white;">&nbsp;Contact me here.</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post">
+                                <div class="form-group " >
+                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                    <div class="col-md-4">
+                                        <input id="fname" name="name" type="text" placeholder="First Name" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                    <div class="col-md-4">
+                                        <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control" required>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                    <div class="col-md-4">
+                                        <input id="email" name="email" type="email" placeholder="Email Address" class="form-control"required>
+                                    </div>
+                                </div>           
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"></i></span>
+                                    <div class="col-md-4">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Enter your message for me here. I will get back to you within 2 business days." rows="7"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-12 text-left">
+                                        <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </section>
+    <footer>
+        <div>
+            Copyright Patrick North 2020 | patrickrnorth@gmail.com
+        </div>
+    </footer>
+   
+
+
+    <!-- Jquery needed -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+    
+    <!-- Script needed -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+</body>
+</html>
