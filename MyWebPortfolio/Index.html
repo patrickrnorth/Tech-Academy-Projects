@@ -7,122 +7,220 @@
     <link href="./CSS/myPortfolio.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="JS/myPortfolio.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav" style="z-index: 999;">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info static-top fixed-top">
         <div class="container">
-            <div class="logo">
-                <a href="#home" class="text-dark font-weight-bold" style="filter: drop-shadow(5px 5px 10px black);">GoNorthern</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                
-                <ul class="navlinks " >
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>            
-            </div>
-            
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
+        <a class="navbar-brand" href="#">
+            <img src="IMG/goNorthernIcon.png" alt="GoNorthernIcon">
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link myP" href="#">Home<span class="sr-only">(current)</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link myP" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link myP" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link myP" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item" >
+                <a href="https://www.linkedin.com/in/patrick-north-009b6822/" target=_blank class="nav-link myP"><img src="IMG/linkedIn.png" alt="LinkedIn"></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.github.com/patrickrnorth" target=_blank class="nav-link myP"><img src="IMG/github.png" alt="Github"></a>
+            </li>
+            </ul>
+        </div>
         </div>
     </nav>
 
+    <!--Home-->
     <section class="home" id="home" >
     </section>
-        
+    
+    <!--About section-->      
     <section class="about" id ="about">
         <div class="jumbotron jumbotron-fluid" style="z-index: -1; background-color: lightblue; height: auto; ">
             <div class="container" style="text-align: left;">
-              <h1 class="display-2" style="color: rgba(1,36,72);  text-align:left; ">Hello, my name is Ryan North.</h1>
-              <p class="myP" style="text-align: left;">I am a full-stack developer based out of Jacksonville, FL.</p>
-              <p class="myP" style="text-align: left;">Would you like to know how I may help your project?</p>
+              <h1 class="display-3" style="color: rgba(1,36,72);  text-align:left; ">Hello, my name is Ryan North.</h1><hr>              
+              <p class="myP" style="text-align: left;">I am a software developer based out of Jacksonville, FL.</p>
+              
               <p class="myP" style="text-align: left;">Check out my <a href="#projects">projects</a> and <a href="#contact">resume</a> below.</p>
             </div>
             
         </div>
     </section>
+    <!--Projects section-->
     <section class="projects" id ="projects">
         <div class="jumbotron jumbotron-fluid" style="background-color:#fedbb7; height:auto; ;">
             <div class="container">
-              <h1 class="display-2" style="color: rgba(1,36,72); text-align:left ">I am fluent in C#/.NET, SQL, Javascript, HTML5/CSS and Bootstrap.</h1>
-              <br><br>>
+              <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="display-3">My Projects</h1><br>
+  
+        <!-- Project One -->
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+        </div>
+        <!-- /.row -->
+  
+        <hr>
+  
+        <!-- Project Two -->
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project Two</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+        </div>
+        <!-- /.row -->
+  
+        <hr>
+  
+        <!-- Project Three -->
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project Three</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+        </div>
+        <!-- /.row -->
+  
+        <hr>
+  
+        <!-- Project Four -->
+        <div class="row">
+  
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project Four</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+        </div>
+        <!-- /.row -->  
+      </div>
+      <!-- /.container -->
+              
+              
+              
+              
+                <!-- <h1 class="display-3" style="color: rgba(1,36,72); text-align:left ">A few of the projects I've worked on...</h1>
+              <hr><br><br>
             </div>
-            <div class="container-fluid ">
-                
-                <div class="row d-flex justify-content-around">
-                    <div class="col-md-3 d-flex justify-content-around">
-                        
-                        <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own web pages or website.</p>
-                        <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Learn More »</a></p>
+            <div class="container-fluid " style="background-color: #fedbb7;">                
+                <div class="container d-flex" >
+                    <div class="col-md-4 ">                        
+                        <a href="https://placeholder.com"><img src="https://via.placeholder.com/300"></a>
+                        <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Live</a>
+                        <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Code</a></p>
                     </div>
-                    <div class="col-md-3 d-flex justify-content-around">
-                        <p>CSS is used for describing the presentation of web pages. CSS can save a lot of time and effort. Our CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the style and layout of your website.</p>
-                        <p><a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">Learn More »</a></p>
+                    <div class="col-md-4">
+                        <a href="https://placeholder.com"><img src="https://via.placeholder.com/300"></a>
+                        <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Live</a>
+                            <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Code</a></p>
                     </div>
-                    <div class="col-md-3 d-flex justify-content-around">
-                        <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can easily create responsive websites.</p>
-                        <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More »</a></p>
+                    <div class="col-md-4">
+                        <a href="https://placeholder.com"><img src="https://via.placeholder.com/300"></a>
+                        <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Live</a>
+                            <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Code</a></p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
+    <!-- Contact section-->
     <section class="contact" id ="contact">
         <div class="jumbotron jumbotron-fluid" style="background-color:rgba(1, 36, 72,.5); width: auto; height:auto;  ">
             <div class="container" >
-                <h1 class="display-2" style="color:white;">&nbsp;Contact me here.</h1>
+                <h1 class="display-3" style="color:white; margin-bottom: 20px;">&nbsp;Contact me here.</h1>
+                <hr><br>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <div class="well well-sm">
                             <form class="form-horizontal" method="post">
-                                <div class="form-group " >
-                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                    <div class="col-md-4">
+                                <div class="form-group ">                                    
+                                    <div class="col-md-6">
                                         <input id="fname" name="name" type="text" placeholder="First Name" class="form-control" required>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                    <div class="col-md-4">
+                                <div class="form-group">                                    
+                                    <div class="col-md-6">
                                         <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control" required>
                                     </div>
                                 </div>
         
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                    <div class="col-md-4">
+                                <div class="form-group">                                    
+                                    <div class="col-md-10">
                                         <input id="email" name="email" type="email" placeholder="Email Address" class="form-control"required>
                                     </div>
-                                </div>           
-        
+                                </div>                   
                                 <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"></i></span>
-                                    <div class="col-md-4">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Enter your message for me here. I will get back to you within 2 business days." rows="7"></textarea>
+                                    <div class="col-md-10">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Enter your message for me here." rows="7"></textarea>
                                     </div>
                                 </div>
         
                                 <div class="form-group">
-                                    <div class="col-md-12 text-left">
+                                    <div class="col-md-12">
                                         <button type="submit" class="btn btn-success btn-lg">Submit</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
+                    <div class="col-md-6" >
+                        <ul>
+                            <li class="display-3 font-weight-bold" style="margin: 20px;"><a href="#home" style="color:rgba(1, 36, 72,.5)">Resumé</a></li><br><br>
+                            <li style="margin:20px;"><a href="https://github.com/patrickrnorth" target=_blank><img src="IMG/githubLogo.png" alt="Github Logo" height="80" width="320"></a></li><br><br>
+                            <li style="margin:20px;"><a href="https://www.linkedin.com/in/patrick-north-009b6822/" target=_blank ><img src="IMG/linkedInLogo.png" alt="LinkedIn Logo" height="80" width="300"></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>      
         </div>
     </section>
     <footer>
-        <div>
-            Copyright Patrick North 2020 | patrickrnorth@gmail.com
+        <div style="text-align: center; margin-bottom: 20px;">
+            Copyright Patrick North 2020 | patrickrnorth@gmail.com<br>
         </div>
     </footer>
    

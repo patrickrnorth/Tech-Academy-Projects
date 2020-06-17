@@ -5,19 +5,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
-    font-size: 10px;
+    font-size: 15px;
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Navbar section */
-
 .nav {
     width: 100%;
     height: 65px;
     position: fixed;
+    background-color: light
+    top:0;
     line-height: 65px;
     text-align: center;
     
@@ -218,6 +220,7 @@ body {
         animation: inBtm 0.8s forwards;
     }
 
+
 @-webkit-keyframes inM {
     50% {
         -webkit-transform: rotate(0deg);
@@ -372,7 +375,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: rgba(254,219,183,.75);
+    background-color: rgba(254,219,183,1);
 }
 
 
@@ -415,6 +418,12 @@ input {
     color: #36A0FF;
     font-size: 27px;
     padding: 10px;
+}
+
+.display-4 {
+    align-items: right;
+    margin: 28px;
+    color: black;
 }
 
 .bigicon {
