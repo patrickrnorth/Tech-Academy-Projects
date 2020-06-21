@@ -81,3 +81,7 @@ D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversit
 D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
 D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
 D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+D:\Github Projects\Tech_Academy_Projects\CSharp_Coding_Projects\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
